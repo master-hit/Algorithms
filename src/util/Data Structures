@@ -1,0 +1,22 @@
+Do not use Vector, Hashtable, and Stack
+
+1. [Array] = associates numerical indexes to objects. do not increase size after declared
+
+2. [Collection] holds single elements. increases after declared
+    2.1 [List] associates numerical indexes to objects
+        2.1.1 [ArrayList] if you're doing a lot of random access
+        2.1.2 [LinkedList] if you will be doing a lot of insertions and removals in the middle of the list.
+            2.1.2.1 Stack
+            2.1.2.1 Queue
+    2.2 [Set] only holds one of each type of object
+        2.2.1 [HashSet] provide maximally fast lookups,
+            2.2.1.1 [LinkedHashSet] keeps elements in insertion order
+        2.2.2 [TreeSets] keeps the elements in sorted order
+3. [Map] holds associated pairs
+    3.1 [HashMap] is designed for rapid access
+        3.1.1 [LinkedHashMap] keeps its keys in sorted order, and provides rapid access with hashing
+    3.2 [TreeMap] keeps its keys in sorted order. no so fast as HashMap
+    
+
+
+
